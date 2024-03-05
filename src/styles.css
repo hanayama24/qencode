@@ -1,3 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+	font-family: 'Basis Grotesque Pro Reg';
+	src: local('Basis Grotesque Pro Regular'), local('assets/fonts/Basis-Grotesque-Pro-Regular'),
+		url('assets/fonts/BasisGrotesquePro-Regular.woff2') format('woff2'),
+		url('assets/fonts/BasisGrotesquePro-Regular.woff') format('woff'),
+		url('assets/fonts/BasisGrotesquePro-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Basis Grotesque Pro Med';
+	src: local('Basis Grotesque Pro Medium'), local('assets/fonts/Basis-Grotesque-Pro-Medium'),
+		url('assets/fonts/BasisGrotesquePro-Medium.woff2') format('woff2'),
+		url('assets/fonts/BasisGrotesquePro-Medium.woff') format('woff'),
+		url('assets/fonts/BasisGrotesquePro-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Basis Grotesque Pro Lig';
+	src: local('Basis Grotesque Pro Light'), local('assets/fonts/Basis-Grotesque-Pro-Light'),
+		url('assets/fonts/BasisGrotesquePro-Light.woff2') format('woff2'),
+		url('assets/fonts/BasisGrotesquePro-Light.woff') format('woff'),
+		url('assets/fonts/BasisGrotesquePro-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Basis Grotesque Pro Bol';
+	src: local('Basis Grotesque Pro Bold'), local('assets/fonts/Basis-Grotesque-Pro-Bold'),
+		url('assets/fonts/BasisGrotesquePro-Bold.woff2') format('woff2'),
+		url('assets/fonts/BasisGrotesquePro-Bold.woff') format('woff'),
+		url('assets/fonts/BasisGrotesquePro-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
