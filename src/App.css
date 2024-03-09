@@ -1,4 +1,15 @@
 h1 {
-  font-family: 'Basis Grotesque Pro Lig';
-  color: red;
+	font-family: 'Basis Grotesque Pro Lig';
+}
+
+.qc-wrapper {
+	margin: 0 auto;
+	max-width: 400px;
+	padding-bottom: 180px;
+	padding-top: 180px;
+}
+
+.qc-logo {
+	display: flex;
+	justify-content: center;
 }

@@ -1,0 +1,91 @@
+.qc-login__title {
+	text-align: center;
+	font-family: 'Basis Grotesque Pro Bol';
+	font-size: 30px;
+	color: #1A1919;
+	padding-top: 77px;
+}
+
+.qc-form {
+	display: flex;
+	flex-direction: column;
+	padding-top: 5px;
+}
+
+.qc-form__input-wrapper {
+	flex: 1;
+	margin-top: 25px;
+	position: relative;
+}
+
+.qc-form__input {
+	width: 100%;
+	height: 48px;
+	padding-left: 15px;
+	border: 1px solid #D3D8DC;
+	border-radius: 6px;
+}
+
+.qc-form__input::placeholder {
+	font-family: 'Basis Grotesque Pro Lig';
+	font-size: 15px;
+	color: #A1ABB5;
+}
+
+.qc-form__submit {
+	padding-top: 30px;
+}
+
+.qc-form__submit-btn {
+	width: 100%;
+	height: 48px;
+	border-radius: 8px;
+	background-color: #316FEA;
+	color: #fff;
+	text-align: center;
+	font-family: 'Basis Grotesque Pro Med';
+	font-size: 16px;
+	box-sizing: border-box;
+}
+
+.qc-form__input-error {
+	border: 1px solid #F20505;
+}
+
+.qc-link-wrapper {
+	text-align: right;
+	padding-top: 15px;
+}
+
+.qc-link {
+	color: #316FEA;
+	font-family: 'Basis Grotesque Pro Med';
+	font-size: 14px;
+}
+
+.qc-link-wrapper.bottom {
+	text-align: center;
+	font-family: 'Basis Grotesque Pro Lig';
+	font-size: 14px;
+}
+
+/* .qc-link-wrapper.bottom .qc-link {
+	font-family: 'Basis Grotesque Pro Lig';
+	font-size: 14px;
+} */
+
+.qc-form-error {
+	position: absolute;
+	bottom: -22px;
+	left: 0px;
+	color: #F20505;
+	font-family: 'Basis Grotesque Pro Lig';
+	font-size: 14px;
+}
+
+.qc-eye-icon {
+	position: absolute;
+	right: 14px;
+	top: 14px;
+	cursor: pointer;
+}
